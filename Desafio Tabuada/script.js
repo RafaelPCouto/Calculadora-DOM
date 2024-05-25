@@ -2,7 +2,7 @@ function tabuada() {
     const num = document.getElementById('num');
     const end = document.getElementById('end');
 
-    if (num === '' || num === ''){
+    if (num.value ==='' || end.value === ''){
         window.alert('Digite números!!')
     } else {
 
@@ -19,7 +19,7 @@ function tabuada() {
             answer.innerHTML += `${n1} x ${i} = ${result} <br>`;
     
         }
-        
+
     }
 
 
